@@ -34,6 +34,8 @@
             loginbtn = new Button();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // disptxt
@@ -91,12 +93,35 @@
             label2.TabIndex = 5;
             label2.Text = "Password";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(295, 344);
+            label3.Name = "label3";
+            label3.Size = new Size(168, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Don't Have an Account?";
+            label3.Click += label3_Click;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(469, 344);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(89, 20);
+            linkLabel1.TabIndex = 7;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Registration";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(157, 178, 191);
             ClientSize = new Size(800, 450);
+            Controls.Add(linkLabel1);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(loginbtn);
@@ -118,5 +143,7 @@
         private Button loginbtn;
         private Label label1;
         private Label label2;
+        private Label label3;
+        private LinkLabel linkLabel1;
     }
 }
