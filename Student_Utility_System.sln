@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Utility_System", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical_Store_System", "Medical_Store_System\Medical_Store_System.csproj", "{52D855AA-D63B-4A88-8B35-9A4285390C43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Notes Management module", "Personal Notes Management module\Personal Notes Management module.csproj", "{49A3E39F-D624-44E3-9106-7C957B940A98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{52D855AA-D63B-4A88-8B35-9A4285390C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D855AA-D63B-4A88-8B35-9A4285390C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D855AA-D63B-4A88-8B35-9A4285390C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A3E39F-D624-44E3-9106-7C957B940A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A3E39F-D624-44E3-9106-7C957B940A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A3E39F-D624-44E3-9106-7C957B940A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A3E39F-D624-44E3-9106-7C957B940A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
